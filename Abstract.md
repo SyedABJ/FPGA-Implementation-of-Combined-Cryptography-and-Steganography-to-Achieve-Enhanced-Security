@@ -2,7 +2,10 @@
 
 In todays emerging world data transfer across internet is very frequent. Security of such data being transferred is really important.There are situations where confidential information has to be transferred and that needs extra security. The technologies and algorithms available to provide security to these data are collectively known as Cryptography. Cryptographic techniques are used for security of data. The 2 main processes of Cryptography are Encryption at sender end and Decryption at receiver end. The process of encrypting the input message to ensure secure transfer is Encryption‘. Decryption is the process of getting back the original message from the encrypted message. We've used the Triple DES (with two keys) alogorithm to encrypt data. Being a symetric key algorithm, the same set of keys can be used to decrypt the cipher at the recievers' end. We plan to add an additional layer of security by combining a technique called Steganography with the Triple DES algorithm.Steganography is a technique that helps to provide
 additional layer of security by hiding one form of data in another form. A text data can be hided inside an image (audio or text) and transmitted with the help of this technique. Here we propose to implement triple DES algorithm followed by Steganography implemented on an FPGA (DE-10 in view of providing double layer protection to the data that is transferred across internet with reduced resource utilisation and delay.
+
 Contributors: 
-Syed Abubaker Bin Junaid    Amaan Farhaan    Monish S    Aniruddh M Kamath 
-![image](https://github.com/user-attachments/assets/c0a5ac28-8541-47bd-9385-3cb0bcbb5c3e
+Syed Abubaker Bin Junaid, Amaan Farhaan, Monish S, Aniruddh M Kamath 
+
+![image](https://github.com/user-attachments/assets/fa90083b-dd59-4320-b717-91967fa62761)
+
 
